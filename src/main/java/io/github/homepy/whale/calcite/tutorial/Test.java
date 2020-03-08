@@ -1,29 +1,37 @@
 package io.github.homepy.whale.calcite.tutorial;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+import org.apache.calcite.adapter.java.ReflectiveSchema;
+import org.apache.calcite.jdbc.CalciteConnection;
+import org.apache.calcite.schema.SchemaPlus;
+
+import io.github.homepy.whale.calcite.cs.po.schema.CspPbcSchema;
+import io.github.homepy.whale.calcite.tutorial.TestReadme.ResultSetFormatter;
 
 public class Test {
 
-	
-	public static void main(String[] args) {
-		
-		System.out.println("abc12345678psd".replaceAll("\\d{8}", "*"));
-		
-		System.out.println("abc123psd".replaceAll("\\d", "*"));
-		
-		Pattern p = Pattern.compile("\\d{1,}");//这个2是指连续数字的最少个数
-        String u = "abc435345defsfsaf564565fsabad5467755fewfadfgea";
-        Matcher m = p.matcher(u);
-        int i = 0;
-        while (m.find()) {
-            System.out.println(m.group());
-            i++;
-        }
-        
-        System.out.println(String.valueOf(137438953471L));
-		
-		
+	public static void main(String[] args) throws SQLException {
+
+		Properties info = new Properties();
+		info.setProperty("lex", "JAVA");
+		Connection connection = DriverManager.getConnection("jdbc:calcite:", info);
+		CalciteConnection calciteConnection = connection.unwrap(CalciteConnection.class);
+		final SchemaPlus rootSchema = calciteConnection.getRootSchema();
+		rootSchema.add("cspdb", new ReflectiveSchema(new CspPbcSchema()));
+		Statement statement = calciteConnection.createStatement();
+		ResultSet resultSet = statement.executeQuery(
+				"select * from cspdb.csp_pbc_main");
+		System.out.println(new ResultSetFormatter().resultSet(resultSet).string());
+		resultSet.close();
+		statement.close();
+		connection.close();
+
 	}
-	
+
 }
