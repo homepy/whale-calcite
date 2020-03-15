@@ -81,6 +81,7 @@ public class PbcMain {
 		String report = FileUtils.readFileToString(
 				new File("/Users/hongpai/Desktop/github/whale-calcite/src/main/resources/request/pbc.json"),
 				Charset.forName("UTF-8"));
+		
 		JSONObject root = JSON.parseObject(report);
 
 		Properties info = new Properties();
@@ -94,13 +95,17 @@ public class PbcMain {
 		rootSchema.add("cspdb", new ReflectiveSchema(cspdb));
 		Statement statement = calciteConnection.createStatement();
 		for (int i = 0; i < sqls.size(); i++) {
+			long start = System.currentTimeMillis();
 			String sql = sqls.get(i);
 			ResultSet resultSet = statement.executeQuery(sql);
 			System.out.print("i=" + i + "; " + new ResultSetFormatter().resultSet(resultSet).string());
 			resultSet.close();
+			System.out.println(String.format("cost[%s]=%s",i, (System.currentTimeMillis() - start)));
 		}
 		statement.close();
 		connection.close();
+		
+		
 	}
 
 	public static void main1(String[] args) throws SQLException, IOException {
