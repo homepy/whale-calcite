@@ -4,14 +4,14 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcPublicInfoSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 公共信息类型 */
-	private String type;
+	public String type;
 	/** 记录数 */
-	private String recnum;
+	public String recnum;
 	/** 涉及金额 */
-	private String money;
+	public String money;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

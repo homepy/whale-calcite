@@ -4,24 +4,24 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcSpecialTrade {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 特殊交易个数 */
-	private String count;
+	public String count;
 	/** 特殊交易类型 */
-	private String type;
+	public String type;
 	/** 特殊交易发生日期 */
-	private String gettime;
+	public String gettime;
 	/** 到期日期变更月数 */
-	private String changingmonths;
+	public String changingmonths;
 	/** 特殊交易发生金额 */
-	private String changingamount;
+	public String changingamount;
 	/** 特殊交易明细记录 */
-	private String content;
+	public String content;
 	/** 标识 */
-	private String seq;
+	public String seq;
 	/** 二级标识 */
-	private String seq2;
+	public String seq2;
 
 }

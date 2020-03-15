@@ -4,12 +4,12 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcMobilePhone {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 手机号码 */
-	private String mobile;
+	public String mobile;
 	/** 信息更新日期 */
-	private String gettime;
+	public String gettime;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

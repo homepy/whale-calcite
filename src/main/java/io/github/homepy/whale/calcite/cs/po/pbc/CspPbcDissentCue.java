@@ -4,8 +4,8 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcDissentCue {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 异议标注数目 */
-	private String count;
+	public String count;
 
 }

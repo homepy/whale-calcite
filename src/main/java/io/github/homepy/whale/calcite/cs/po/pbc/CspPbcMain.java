@@ -6,10 +6,6 @@ import java.util.Date;
 /** 人行报告主信息表(CSP_PBC_MAIN) */
 
 public class CspPbcMain {
-	
-	public CspPbcMain(String reportid) {
-		this.reportid = reportid;
-	}
 
 	/** 报告编号 */
 	public String reportid;

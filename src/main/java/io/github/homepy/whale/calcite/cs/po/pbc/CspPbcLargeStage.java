@@ -4,22 +4,22 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcLargeStage {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 大额专项分期笔数 */
-	private String count;
+	public String count;
 	/** 大额专项分期额度 */
-	private String amount;
+	public String amount;
 	/** 已用分期金额 */
-	private String usedamount;
+	public String usedamount;
 	/** 分期额度生效日期 */
-	private String begindate;
+	public String begindate;
 	/** 分期额度到期日期 */
-	private String enddate;
+	public String enddate;
 	/** 标识 */
-	private String seq;
+	public String seq;
 	/** 二级标识 */
-	private String seq2;
+	public String seq2;
 
 }

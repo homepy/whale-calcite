@@ -1,7 +1,6 @@
 package io.github.homepy.whale.calcite.cs.po.schema;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcAdminAward;
@@ -52,7 +51,7 @@ import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcSpecialEvent;
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcSpecialTrade;
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcStanLoanCardSum;
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcTaxArrear;
-import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcnewLateMonthQueRecSum;
+import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcNewLateMonthQueRecSum;
 
 public class PbcSchema {
 	
@@ -62,7 +61,7 @@ public class PbcSchema {
 	}
 
 	/** 人行报告主信息表(CSP_PBC_MAIN) */
-	public List<CspPbcMain> csp_pbc_main = new ArrayList<>(Arrays.asList(new CspPbcMain("1"), new CspPbcMain("2"))) ;
+	public List<CspPbcMain> csp_pbc_main = new ArrayList<>() ;
 	/** 人行报告居住信息表(CSP_PBC_PERRISIDE) */
 	public List<CspPbcPerRiside> csp_pbc_perriside = new ArrayList<>();
 	/** 人行报告职业信息表(CSP_PBC_PEROCCUP) */
@@ -84,7 +83,7 @@ public class PbcSchema {
 	/** 未销户贷记卡信息汇总(CSP_PBCNEW_UNDESTORYLOANCARD) */
 	public List<CspPbcNewUndestoryLoanCard> csp_pbcnew_undestoryloancard = new ArrayList<>();
 	/** 最近1个月内的查询次数(CSP_PBCNEW_LATEMONTHQUERECSUM) */
-	public List<CspPbcnewLateMonthQueRecSum> csp_pbcnew_latemonthquerecsum = new ArrayList<>();
+	public List<CspPbcNewLateMonthQueRecSum> csp_pbcnew_latemonthquerecsum = new ArrayList<>();
 	/** 其他身份标识信息(CSP_PBC_OTHERCERT) */
 	public List<CspPbcOtherCert> csp_pbc_othercert = new ArrayList<>();
 	/** 防欺诈警示信息(CSP_PBC_PREFRAUDCUE) */

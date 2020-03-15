@@ -4,19 +4,19 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcCreditSumCue {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户数合计 */
-	private String accountsum;
+	public String accountsum;
 	/** 业务类型数量 */
-	private String bustypecount;
+	public String bustypecount;
 	/** 业务类型 */
-	private String bustype;
+	public String bustype;
 	/** 业务大类 */
-	private String busclass;
+	public String busclass;
 	/** 账户数 */
-	private String accountcount;
+	public String accountcount;
 	/** 首笔业务发放月份 */
-	private String openmonth;
+	public String openmonth;
 	/** 标识 */
-	private String seq;
+	public String seq;
 }

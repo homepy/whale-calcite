@@ -4,23 +4,23 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcPostPayment {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户类型 */
-	private String accounttype;
+	public String accounttype;
 	/** 机构名称 */
-	private String organname;
+	public String organname;
 	/** 业务类型 */
-	private String bustype;
+	public String bustype;
 	/** 业务开通日期 */
-	private String registerdate;
+	public String registerdate;
 	/** 当前缴费状态 */
-	private String state;
+	public String state;
 	/** 当前欠费金额 */
-	private String arrearmoney;
+	public String arrearmoney;
 	/** 记账年月 */
-	private String gettime;
+	public String gettime;
 	/** 最近24个月缴费记录 */
-	private String status24;
+	public String status24;
 	/** 标识 */
-	private String seq;
+	public String seq;
 }

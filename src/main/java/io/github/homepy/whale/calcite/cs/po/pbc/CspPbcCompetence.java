@@ -4,22 +4,22 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcCompetence {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 执业资格名称 */
-	private String competencyname;
+	public String competencyname;
 	/** 颁发机构 */
-	private String organname;
+	public String organname;
 	/** 等级 */
-	private String grade;
+	public String grade;
 	/** 机构所在地 */
-	private String area;
+	public String area;
 	/** 获得年月 */
-	private String awarddate;
+	public String awarddate;
 	/** 到期年月 */
-	private String enddate;
+	public String enddate;
 	/** 吊销年月 */
-	private String revokedate;
+	public String revokedate;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

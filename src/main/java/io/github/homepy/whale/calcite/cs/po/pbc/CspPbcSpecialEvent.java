@@ -4,17 +4,17 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcSpecialEvent {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 特殊事件说明个数 */
-	private String count;
+	public String count;
 	/** 特殊事件月份 */
-	private String month;
+	public String month;
 	/** 特殊事件类型 */
-	private String type;
+	public String type;
 	/** 标识 */
-	private String seq;
+	public String seq;
 	/** 二级标识 */
-	private String seq2;
+	public String seq2;
 }

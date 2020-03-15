@@ -4,26 +4,26 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcLatest5YearBehavior {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 账户类型 */
-	private String accounttype;
+	public String accounttype;
 	/** 起始年月 */
-	private String beginmonth;
+	public String beginmonth;
 	/** 截止年月 */
-	private String endmonth;
+	public String endmonth;
 	/** 月数 */
-	private String months;
+	public String months;
 	/** 月份 */
-	private String month;
+	public String month;
 	/** 还款状态 */
-	private String repaystate;
+	public String repaystate;
 	/** 逾期（透支）总额 */
-	private String amount;
+	public String amount;
 	/** 标识 */
-	private String seq;
+	public String seq;
 	/** 二级标识 */
-	private String seq2;
+	public String seq2;
 
 }

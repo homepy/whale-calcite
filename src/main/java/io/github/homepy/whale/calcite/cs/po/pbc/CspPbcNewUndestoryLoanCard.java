@@ -4,22 +4,22 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcNewUndestoryLoanCard {
 
 	/** 报告编号 */
-	private String reportsn;
+	public String reportsn;
 	/** 发卡法人机构数 */
-	private String financecorpcount;
+	public String financecorpcount;
 	/** 发卡机构数 */
-	private String financeorgcount;
+	public String financeorgcount;
 	/** 账户数 */
-	private String accountcount;
+	public String accountcount;
 	/** 授信总额 */
-	private String creditlimit;
+	public String creditlimit;
 	/** 单家行最高授信额度 */
-	private String maxcreditlimitperorg;
+	public String maxcreditlimitperorg;
 	/** 单家行最低授信额度 */
-	private String mincreditlimitperorg;
+	public String mincreditlimitperorg;
 	/** 已用额度 */
-	private String usedcreditlimit;
+	public String usedcreditlimit;
 	/** 最近6个月平均使用额度 */
-	private String latest6monthusedavgamount;
+	public String latest6monthusedavgamount;
 
 }

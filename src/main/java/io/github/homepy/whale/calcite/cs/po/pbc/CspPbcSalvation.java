@@ -4,21 +4,21 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcSalvation {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 人员类别 */
-	private String personneltype;
+	public String personneltype;
 	/** 所在地 */
-	private String area;
+	public String area;
 	/** 工作单位 */
-	private String organname;
+	public String organname;
 	/** 家庭月收入 */
-	private String money;
+	public String money;
 	/** 申请日期 */
-	private String registerdate;
+	public String registerdate;
 	/** 批准日期 */
-	private String passdate;
+	public String passdate;
 	/** 信息更新日期 */
-	private String gettime;
+	public String gettime;
 	/** 标识 */
-	private String seq;
+	public String seq;
 }

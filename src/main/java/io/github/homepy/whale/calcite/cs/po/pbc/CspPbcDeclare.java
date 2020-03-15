@@ -4,17 +4,17 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcDeclare {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 个数 */
-	private String count;
+	public String count;
 	/** 类型 */
-	private String type;
+	public String type;
 	/** 声明内容 */
-	private String declare_content;
+	public String declare_content;
 	/** 添加日期 */
-	private String declare_date;
+	public String declare_date;
 	/** 信息获取日期 */
-	private String get_info_date;
+	public String get_info_date;
 	/** 信息标志 */
-	private String info_flag;
+	public String info_flag;
 }

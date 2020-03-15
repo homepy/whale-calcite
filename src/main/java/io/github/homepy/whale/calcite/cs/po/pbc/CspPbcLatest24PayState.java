@@ -4,22 +4,22 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcLatest24PayState {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 账户类型 */
-	private String accounttype;
+	public String accounttype;
 	/** 起始年月 */
-	private String beginmonth;
+	public String beginmonth;
 	/** 截止年月 */
-	private String endmonth;
+	public String endmonth;
 	/** 还款月份 */
-	private String paymonth;
+	public String paymonth;
 	/** 还款状态 */
-	private String paystate;
+	public String paystate;
 	/** 标识 */
-	private String seq;
+	public String seq;
 	/** 二级标识 */
-	private String seq2;
+	public String seq2;
 
 }

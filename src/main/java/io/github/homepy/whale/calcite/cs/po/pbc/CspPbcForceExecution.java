@@ -4,28 +4,28 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcForceExecution {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 执行法院 */
-	private String court;
+	public String court;
 	/** 执行案由 */
-	private String casereason;
+	public String casereason;
 	/** 立案日期 */
-	private String registerdate;
+	public String registerdate;
 	/** 结案方式 */
-	private String closedtype;
+	public String closedtype;
 	/** 案件状态 */
-	private String casestate;
+	public String casestate;
 	/** 结案日期 */
-	private String closeddate;
+	public String closeddate;
 	/** 申请执行标的 */
-	private String enforceobject;
+	public String enforceobject;
 	/** 申请执行标的金额 */
-	private String enforceobjectmoney;
+	public String enforceobjectmoney;
 	/** 已执行标的 */
-	private String alreadyenforceobject;
+	public String alreadyenforceobject;
 	/** 已执行标的金额 */
-	private String alreadyenforceobjectmoney;
+	public String alreadyenforceobjectmoney;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

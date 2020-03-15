@@ -4,15 +4,15 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcQueryInfo {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 被查询者证件类型 */
-	private String queried_zjtype;
+	public String queried_zjtype;
 	/** 被查询者证件号码 */
-	private String queried_zjno;
+	public String queried_zjno;
 	/** 被查询者姓名 */
-	private String queried_name;
+	public String queried_name;
 	/** 查询机构 */
-	private String query_org;
+	public String query_org;
 	/** 查询原因 */
-	private String query_reason;
+	public String query_reason;
 }

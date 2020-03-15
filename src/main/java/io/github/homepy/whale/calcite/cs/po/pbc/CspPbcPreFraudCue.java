@@ -4,14 +4,14 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcPreFraudCue {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 警示标志 */
-	private String sign;
+	public String sign;
 	/** 警示联系电话 */
-	private String refphone;
+	public String refphone;
 	/** 警示生效日期 */
-	private String effdate;
+	public String effdate;
 	/** 警示截止日期 */
-	private String expdate;
+	public String expdate;
 
 }

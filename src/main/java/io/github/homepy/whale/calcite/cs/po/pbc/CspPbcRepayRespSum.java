@@ -4,19 +4,19 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcRepayRespSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 相关还款责任个数 */
-	private String repayrespcount;
+	public String repayrespcount;
 	/** 借款人身份类别 */
-	private String borrowertype;
+	public String borrowertype;
 	/** 相关还款责任类型 */
-	private String resptype;
+	public String resptype;
 	/** 账户数 */
-	private String count;
+	public String count;
 	/** 还款责任限额 */
-	private String amount;
+	public String amount;
 	/** 余额 */
-	private String balance;
+	public String balance;
 	/** 标识 */
-	private String seq;
+	public String seq;
 }

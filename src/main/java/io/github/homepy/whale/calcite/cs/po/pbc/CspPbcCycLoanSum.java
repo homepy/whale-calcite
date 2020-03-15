@@ -4,15 +4,15 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcCycLoanSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 管理机构（法人）数 */
-	private String financeorgcount;
+	public String financeorgcount;
 	/** 账户数 */
-	private String accountcount;
+	public String accountcount;
 	/** 授信总额 */
-	private String creditlimit;
+	public String creditlimit;
 	/** 余额 */
-	private String balance;
+	public String balance;
 	/** 最近6个月平均余额 */
-	private String latest6monthusedavgamount;
+	public String latest6monthusedavgamount;
 }

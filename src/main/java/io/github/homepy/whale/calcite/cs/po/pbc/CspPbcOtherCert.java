@@ -4,12 +4,12 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcOtherCert {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 证件类型 */
-	private String certtype;
+	public String certtype;
 	/** 证件号码 */
-	private String certno;
+	public String certno;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

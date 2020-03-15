@@ -4,48 +4,48 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcCreditAccount {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户编号 */
-	private String accountno;
+	public String accountno;
 	/** 账户类型 */
-	private String accounttype;
+	public String accounttype;
 	/** 业务管理机构类型 */
-	private String financetype;
+	public String financetype;
 	/** 业务管理机构代码 */
-	private String financeorg;
+	public String financeorg;
 	/** 账户标识 */
-	private String account;
+	public String account;
 	/** 授信协议编号 */
-	private String protocolcode;
+	public String protocolcode;
 	/** 业务种类 */
-	private String type;
+	public String type;
 	/** 开立日期 */
-	private String opendate;
+	public String opendate;
 	/** 到期日期 */
-	private String enddate;
+	public String enddate;
 	/** 币种 */
-	private String currency;
+	public String currency;
 	/** 借款金额 */
-	private String creditlimitamount;
+	public String creditlimitamount;
 	/** 账户授信额度 */
-	private String accountlimitamount;
+	public String accountlimitamount;
 	/** 共享授信额度 */
-	private String sharelimitamount;
+	public String sharelimitamount;
 	/** 还款方式 */
-	private String repaymode;
+	public String repaymode;
 	/** 还款频率 */
-	private String paymentrating;
+	public String paymentrating;
 	/** 还款期数 */
-	private String paymentcyc;
+	public String paymentcyc;
 	/** 担保方式 */
-	private String guaranteetype;
+	public String guaranteetype;
 	/** 贷款发放形式 */
-	private String loanmode;
+	public String loanmode;
 	/** 共同借款标志 */
-	private String coloanflag;
+	public String coloanflag;
 	/** 债权转移时的还款状态 */
-	private String credittransrepaystate;
+	public String credittransrepaystate;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

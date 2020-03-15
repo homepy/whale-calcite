@@ -4,99 +4,99 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcCreditList {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 卡类型 */
-	private String cardtype;
+	public String cardtype;
 	/** 币种 */
-	private String currency_type;
+	public String currency_type;
 	/** 开户日期 */
-	private String acc_open_date;
+	public String acc_open_date;
 	/** 信用额度 */
-	private String credit_amount;
+	public String credit_amount;
 	/** 共享授信额度 */
-	private String share_credit;
+	public String share_credit;
 	/** 最大负债额 */
-	private String max_debt;
+	public String max_debt;
 	/** 透支余额/已使用额度 */
-	private String overdraft_balance;
+	public String overdraft_balance;
 	/** 账户状态 */
-	private String account_state;
+	public String account_state;
 	/** 本月应还款金额 */
-	private String mon_need_ret;
+	public String mon_need_ret;
 	/** 本月实际还款金额 */
-	private String mon_fact_ret;
+	public String mon_fact_ret;
 	/** 最近一次实际还款日期 */
-	private String firstret_date;
+	public String firstret_date;
 	/** 当前逾期期数 */
-	private String overdue_count;
+	public String overdue_count;
 	/** 当前逾期总额 */
-	private String overdue_sum;
+	public String overdue_sum;
 	/** 准贷记卡透支180天以上未付余额 */
-	private String overdraft_unpay;
+	public String overdraft_unpay;
 	/** 贷记卡12个月内未还最低还款额次数 */
-	private String lowest_ret;
+	public String lowest_ret;
 	/** 信息获取时间 */
-	private String info_date;
+	public String info_date;
 	/** 信用卡24月还款状态 */
-	private String retst24;
+	public String retst24;
 	/** 信用卡23月还款状态 */
-	private String retst23;
+	public String retst23;
 	/** 信用卡22月还款状态 */
-	private String retst22;
+	public String retst22;
 	/** 信用卡21月还款状态 */
-	private String retst21;
+	public String retst21;
 	/** 信用卡20月还款状态 */
-	private String retst20;
+	public String retst20;
 	/** 信用卡19月还款状态 */
-	private String retst19;
+	public String retst19;
 	/** 信用卡18月还款状态 */
-	private String retst18;
+	public String retst18;
 	/** 信用卡17月还款状态 */
-	private String retst17;
+	public String retst17;
 	/** 信用卡16月还款状态 */
-	private String retst16;
+	public String retst16;
 	/** 信用卡15月还款状态 */
-	private String retst15;
+	public String retst15;
 	/** 信用卡14月还款状态 */
-	private String retst14;
+	public String retst14;
 	/** 信用卡13月还款状态 */
-	private String retst13;
+	public String retst13;
 	/** 信用卡12月还款状态 */
-	private String retst12;
+	public String retst12;
 	/** 信用卡11月还款状态 */
-	private String retst11;
+	public String retst11;
 	/** 信用卡10月还款状态 */
-	private String retst10;
+	public String retst10;
 	/** 信用卡9月还款状态 */
-	private String retst9;
+	public String retst9;
 	/** 信用卡8月还款状态 */
-	private String retst8;
+	public String retst8;
 	/** 信用卡7月还款状态 */
-	private String retst7;
+	public String retst7;
 	/** 信用卡6月还款状态 */
-	private String retst6;
+	public String retst6;
 	/** 信用卡5月还款状态 */
-	private String retst5;
+	public String retst5;
 	/** 信用卡4月还款状态 */
-	private String retst4;
+	public String retst4;
 	/** 信用卡3月还款状态 */
-	private String retst3;
+	public String retst3;
 	/** 信用卡2月还款状态 */
-	private String retst2;
+	public String retst2;
 	/** 信用卡1月还款状态 */
-	private String retst1;
+	public String retst1;
 	/** 结算年月 */
-	private String balance_date;
+	public String balance_date;
 	/** 发卡机构名称 */
-	private String org_name;
+	public String org_name;
 	/** 还款状态记录编号 */
-	private String ret_code;
+	public String ret_code;
 	/** 业务号 */
-	private String tran_code;
+	public String tran_code;
 	/** 担保方式 */
-	private String vouch_type;
+	public String vouch_type;
 	/** 发卡机构类型 */
-	private String org_type;
+	public String org_type;
 	/** 账户类型 */
-	private String account_type;
+	public String account_type;
 }

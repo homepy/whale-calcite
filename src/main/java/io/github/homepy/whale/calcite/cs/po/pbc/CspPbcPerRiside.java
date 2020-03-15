@@ -4,16 +4,16 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcPerRiside {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 居住地址 */
-	private String reside_addr;
+	public String reside_addr;
 	/** 居住状况 */
-	private String reside_state;
+	public String reside_state;
 	/** 信息获取时间 */
-	private String info_date;
+	public String info_date;
 	/** 邮政编码 */
-	private String zip;
+	public String zip;
 	/** 住宅电话 */
-	private String home_phone;
+	public String home_phone;
 
 }

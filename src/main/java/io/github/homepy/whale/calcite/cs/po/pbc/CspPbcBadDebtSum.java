@@ -4,10 +4,10 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcBadDebtSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 账户数 */
-	private String accountcount;
+	public String accountcount;
 	/** 余额 */
-	private String balance;
+	public String balance;
 
 }

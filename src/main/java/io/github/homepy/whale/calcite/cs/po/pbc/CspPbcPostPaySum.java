@@ -4,14 +4,14 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcPostPaySum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 业务类型数量 */
-	private String typecount;
+	public String typecount;
 	/** 业务类型 */
-	private String type;
+	public String type;
 	/** 欠费账户数 */
-	private String accountnum;
+	public String accountnum;
 	/** 欠费金额 */
-	private String arrearmoney;
+	public String arrearmoney;
 
 }

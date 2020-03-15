@@ -4,14 +4,14 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcTaxArrear {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 主管税务机关 */
-	private String organname;
+	public String organname;
 	/** 欠税总额 */
-	private String taxarreaamount;
+	public String taxarreaamount;
 	/** 欠税统计日期 */
-	private String revenuedate;
+	public String revenuedate;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

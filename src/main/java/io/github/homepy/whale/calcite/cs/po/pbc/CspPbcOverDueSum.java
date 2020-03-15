@@ -4,20 +4,20 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcOverDueSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 逾期（透支）业务类型数量 */
-	private String overduebustypecount;
+	public String overduebustypecount;
 	/** 业务类型 */
-	private String bustype;
+	public String bustype;
 	/** 账户数 */
-	private String count;
+	public String count;
 	/** 月份数 */
-	private String months;
+	public String months;
 	/** 最长逾期（透支）月数 */
-	private String maxduration;
+	public String maxduration;
 	/** 单月最高逾期（透支）总额 */
-	private String highestoverdueamountpermon;
+	public String highestoverdueamountpermon;
 	/** 标识 */
-	private String seq;
+	public String seq;
 
 }

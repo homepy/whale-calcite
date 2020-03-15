@@ -4,13 +4,13 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcDissentAnnounceSum {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 对象类型 */
-	private String objtype;
+	public String objtype;
 	/** 对象标识 */
-	private String objid;
+	public String objid;
 	/** 类型个数 */
-	private String typecount;
+	public String typecount;
 	/** 标识 */
-	private String seq;
+	public String seq;
 }

@@ -4,75 +4,75 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcHouseFund {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 个人帐号 */
-	private String account;
+	public String account;
 	/** 单位名称 */
-	private String comp_nm;
+	public String comp_nm;
 	/** 开户日期 */
-	private String acc_open_date;
+	public String acc_open_date;
 	/** 初缴年月 */
-	private String pay_date_s;
+	public String pay_date_s;
 	/** 缴至年月 */
-	private String pay_date_e;
+	public String pay_date_e;
 	/** 最近一次交缴日期 */
-	private String recent_pay_date;
+	public String recent_pay_date;
 	/** 单位缴存比例 */
-	private String pay_deposit_com;
+	public String pay_deposit_com;
 	/** 个人缴存比例 */
-	private String pay_deposit_per;
+	public String pay_deposit_per;
 	/** 月缴存额 */
-	private String month_pay_deposit;
+	public String month_pay_deposit;
 	/** 信息获取时间 */
-	private String info_date;
+	public String info_date;
 	/** 24月缴费情况 */
-	private String retst24;
+	public String retst24;
 	/** 23月缴费情况 */
-	private String retst23;
+	public String retst23;
 	/** 22月缴费情况 */
-	private String retst22;
+	public String retst22;
 	/** 21月缴费情况 */
-	private String retst21;
+	public String retst21;
 	/** 20月缴费情况 */
-	private String retst20;
+	public String retst20;
 	/** 19月缴费情况 */
-	private String retst19;
+	public String retst19;
 	/** 18月缴费情况 */
-	private String retst18;
+	public String retst18;
 	/** 17月缴费情况 */
-	private String retst17;
+	public String retst17;
 	/** 16月缴费情况 */
-	private String retst16;
+	public String retst16;
 	/** 15月缴费情况 */
-	private String retst15;
+	public String retst15;
 	/** 14月缴费情况 */
-	private String retst14;
+	public String retst14;
 	/** 13月缴费情况 */
-	private String retst13;
+	public String retst13;
 	/** 12月缴费情况 */
-	private String retst12;
+	public String retst12;
 	/** 11月缴费情况 */
-	private String retst11;
+	public String retst11;
 	/** 10月缴费情况 */
-	private String retst10;
+	public String retst10;
 	/** 9月缴费情况 */
-	private String retst9;
+	public String retst9;
 	/** 8月缴费情况 */
-	private String retst8;
+	public String retst8;
 	/** 7月缴费情况 */
-	private String retst7;
+	public String retst7;
 	/** 6月缴费情况 */
-	private String retst6;
+	public String retst6;
 	/** 5月缴费情况 */
-	private String retst5;
+	public String retst5;
 	/** 4月缴费情况 */
-	private String retst4;
+	public String retst4;
 	/** 3月缴费情况 */
-	private String retst3;
+	public String retst3;
 	/** 2月缴费情况 */
-	private String retst2;
+	public String retst2;
 	/** 1月缴费情况 */
-	private String retst1;
+	public String retst1;
 	/** 参缴地 */
-	private String area;
+	public String area;
 }

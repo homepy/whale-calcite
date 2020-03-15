@@ -4,13 +4,13 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcLastQueryRecord {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 查询日期 */
-	private String querydate;
+	public String querydate;
 	/** 查询机构类型 */
-	private String queryorgtype;
+	public String queryorgtype;
 	/** 查询机构代码 */
-	private String queryorg;
+	public String queryorg;
 	/** 查询原因 */
-	private String queryreason;
+	public String queryreason;
 }

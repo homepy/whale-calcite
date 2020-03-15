@@ -4,19 +4,19 @@ package io.github.homepy.whale.calcite.cs.po.pbc;
 public class CspPbcScore {
 
 	/** 报告编号 */
-	private String reportid;
+	public String reportid;
 	/** 人行评分 */
-	private String pbc_score;
+	public String pbc_score;
 	/** 中信评分 */
-	private String citic_score;
+	public String citic_score;
 	/** 更新时间 */
-	private String update_time;
+	public String update_time;
 	/** 数字解读 */
-	private String score;
+	public String score;
 	/** 相对位置 */
-	private String score_level;
+	public String score_level;
 	/** 说明条数 */
-	private String scoreele_count;
+	public String scoreele_count;
 	/** 说明内容 */
-	private String scoreele_content;
+	public String scoreele_content;
 }
