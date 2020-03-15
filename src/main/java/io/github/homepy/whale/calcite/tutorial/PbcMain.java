@@ -104,8 +104,6 @@ public class PbcMain {
 		}
 		statement.close();
 		connection.close();
-		
-		
 	}
 
 	public static void main1(String[] args) throws SQLException, IOException {

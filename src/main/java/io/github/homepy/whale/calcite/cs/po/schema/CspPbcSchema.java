@@ -58,25 +58,13 @@ import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcStanLoanCardSum;
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcTaxArrear;
 import io.github.homepy.whale.calcite.cs.po.pbc.CspPbcNewLateMonthQueRecSum;
 
+/**
+ * 数据库schema-CspPbcSchema.
+ * <br/>public的成员变量即为Table,如CspPbcMain[] csp_pbc_main即为csp_pbc_main表
+ * @author hongpai
+ *
+ */
 public class CspPbcSchema {
-
-	@Override
-	public String toString() {
-		return "CspPbcSchema";
-	}
-
-
-	@SuppressWarnings("unchecked")
-	public <T> T[] toArray(Class<T> clazz, Object item) {
-		List<T> list = null;
-		if (item instanceof JSONObject) {
-			list = Arrays.asList(((JSONObject) item).toJavaObject(clazz));
-		} else if (item instanceof JSONArray) {
-			list = ((JSONArray) item).toJavaList(clazz);
-		}
-		T[] arr = (T[]) Array.newInstance(clazz, list.size());
-		return list.toArray(arr);
-	}
 
 	/** 人行报告主信息表(CSP_PBC_MAIN) */
 	public CspPbcMain[] csp_pbc_main;
@@ -177,8 +165,25 @@ public class CspPbcSchema {
 	/** 其他标注及声明信息汇总(CSP_PBC_DISSENTANNOUNCESUM) */
 	public CspPbcDissentAnnounceSum[] csp_pbc_dissentannouncesum;
 	
+	@Override
+	public String toString() {
+		return "CspPbcSchema";
+	}
+	
 	public CspPbcSchema() {
 		checkAndInit();
+	}
+
+	@SuppressWarnings("unchecked")
+	private <T> T[] toArray(Class<T> clazz, Object item) {
+		List<T> list = null;
+		if (item instanceof JSONObject) {
+			list = Arrays.asList(((JSONObject) item).toJavaObject(clazz));
+		} else if (item instanceof JSONArray) {
+			list = ((JSONArray) item).toJavaList(clazz);
+		}
+		T[] arr = (T[]) Array.newInstance(clazz, list.size());
+		return list.toArray(arr);
 	}
 
 	public CspPbcSchema(JSONObject jsonObj) {
